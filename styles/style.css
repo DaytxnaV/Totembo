@@ -180,3 +180,91 @@ h3 {
     text-transform: uppercase;
     color: #323232;
 }
+
+
+/*main__leaders*/
+
+.main__leaders h1 {
+    font-family: var(--discount_font);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    color: var(--main__h3);
+}
+
+.main__cards {
+    display: grid;
+    grid-template-columns: 415px 415px 415px;
+    grid-template-rows: 485px 485px 485px; 
+    column-gap: 24px;
+    row-gap: 40px;
+}
+
+.main__card {
+    background: var(--main__block-color);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.main__card2 {
+    background: var(--main__block-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main__link {
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+.main__card-text {
+    font-family: 'Regular';
+    font-weight: 400;
+    font-size: 16px;
+    color: #323232;
+}
+
+.main__card-btn {
+    margin: 20px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__card-link {
+    padding: 15px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: var(--discount_color);
+    border-radius: 10px;
+}
+
+.main__card h3 {
+    font-family: 'Bold';
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--main__h3);
+}
+
+.main__leaders h2 {
+    margin: 60px auto;
+    font-family: 'Regular';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #323232;
+}
