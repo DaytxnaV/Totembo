@@ -31,8 +31,6 @@
     }
 }
 
-
-
 @media(max-width: 1030px) {
     .main__advice-all {
         flex-direction: column;
@@ -52,6 +50,17 @@
     .main__cards {
         display: grid;
         grid-template-columns: 500px;
+        justify-content: center;
+    }
+
+    .footer .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+        text-align: center;
+    }
+
+    .footer__title {
         justify-content: center;
     }
 }
